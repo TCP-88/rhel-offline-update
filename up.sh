@@ -1,8 +1,5 @@
 #!/bin/bash
-#set -x
-#cut -f 1 -d '.' list.txt
 
-log_file=/tmp/rhel-download.log
 tmpfile=/tmp/`basename $0`.$$
 
 ls -1 $bz2dir >$tmpfile
